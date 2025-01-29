@@ -14,7 +14,7 @@ public class DisplayClock extends Application {
         Label lblCurrentTime = new Label(timeString);
 
         // Place clock and label in border pane
-        Border pane = new BorderPane();
+        BorderPane pane = new BorderPane();
         pane.setCenter(clock);
         pane.setBottom(lblCurrentTime);
         BorderPane.setAlignment(lblCurrentTime, Pos.TOP_CENTER);
